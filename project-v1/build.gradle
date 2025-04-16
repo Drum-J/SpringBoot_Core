@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+    implementation files('libs/memory-v1.jar') // memory-v1 외부 라이브러리 사용
+
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
